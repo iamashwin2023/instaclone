@@ -1,6 +1,19 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:rvonlineshoppingdemo/View/loginpage.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  if (kIsWeb) {
+    await Firebase.initializeApp(
+        options: const FirebaseOptions(
+            apiKey: "AIzaSyBRy02Wgd7blHp6fJN6WOdi8Kvtz3oIVcM",
+            appId: "1:47499602939:web:a36936d4f3337bee99795e",
+            messagingSenderId: "G-XEHSKJJT7V",
+            projectId: "rvonlineshoppingdemo"));
+  }
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -31,7 +44,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const LoginPage(),debugShowCheckedModeBanner: false,
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

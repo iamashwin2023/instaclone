@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47499602939",
+    "project_id": "rvonlineshoppingdemo",
+    "storage_bucket": "rvonlineshoppingdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47499602939:android:dedcd7eeb616caf299795e",
+        "android_client_info": {
+          "package_name": "com.example.rvonlineshoppingdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNKYdf-Z63Yy7tMJw-Jmt_hkOXV4RwNZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
