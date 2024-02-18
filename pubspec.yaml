@@ -35,6 +35,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  provider: ^6.1.1
+  flutter_svg: ^2.0.9
 
 dev_dependencies:
   flutter_test:
@@ -59,9 +61,31 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - asset/2bAb3KRjHhqpdATP316gE5IVrXm.svg
+    - asset/98511ee98a1930b8938e42caf0904d2d.png 
+    - asset/814687904Munnar_Pothamedu_Viewpoint_Main.png 
+    - asset/817727019b66c85c1df95a9668d8ecbf.png 
+    - asset/ai-generated-8514131_1920.png 
+    - asset/ask-us-about-our-sunset.png 
+    - asset/blog-header-3.png 
+    - asset/cat-551554_1920.png 
+    - asset/cool-profile-pictures-retouching-1.png 
+    - asset/dirt-bike-330815_1920.png 
+    - asset/dog-1850465_1920.png 
+    - asset/download.png 
+    - asset/instagram_3955024.png 
+    - asset/instagram.png 
+    - asset/istockphoto-1317804578-612x612.png 
+    - asset/pexels-photo-771742.webp 
+    - asset/pngfind.com-logo-de-instagram-png-2171074.png 
+    - asset/pngfind.com-logo-de-instagram-png-2171074.svg 
+    - asset/pngtree-man-wearing-glasses-is-wearing-colorful-background-image_2905240.png 
+    - asset/portrait-657116_1920.png 
+    - asset/round_profil_picture_before_.png 
+    - asset/shopping-street-7924559_1920.png 
+    - asset/the-best-poses-for-girls-profile-pictures-v0-k3kxvh4czthb1.png 
+    - asset/woman-1274056_1920.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
