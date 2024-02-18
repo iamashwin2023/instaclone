@@ -1,4 +1,4 @@
-# rvonlineshoppingdemo
+# instaclone
 
 A new Flutter project.
 
